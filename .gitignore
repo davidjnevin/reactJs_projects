@@ -38,4 +38,3 @@ packages/react-devtools-shell/dist
 packages/react-devtools-timeline/dist
 *.DS_Store
 reactjs_tutorial.code-workspace
-.DS_STORE
