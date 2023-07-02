@@ -36,12 +36,12 @@ const MultipleReturnsFetchData = () => {
   if (isError) {
     return <h2>There was an error loading that resource.</h2>;
   }
-
+const {avatar_url, name, company, bio} = user;
   return <div>
-    <img style={{ width: '150px', borderRadius: '25px' }} src={user.avatar_url} alt={user.name} />
-    <h2>{user.name}</h2>
-    <h4>Works at {user.company}</h4>
-    <p>{user.bio}</p>
+    <img style={{ width: '150px', borderRadius: '25px' }} src={avatar_url} alt={name} />
+    <h2>{name}</h2>
+    <h4>Works at {company}</h4>
+    <p>{bio}</p>
     </div>
 };
 export default MultipleReturnsFetchData;
