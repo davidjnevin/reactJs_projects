@@ -1,5 +1,5 @@
-import Starter from './tutorial/06-forms/starter/05-form-data';
-import Final from './tutorial/06-forms/final/05-form-data';
+import Starter from './tutorial/07-useRef/starter/01-useRef-basics';
+import Final from './tutorial/07-useRef/Final/01-useRef-basics';
 
 function App() {
 	return (
